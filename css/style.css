@@ -12,6 +12,25 @@ body {
 	font-size: 300;
 	font-size: 16px;
 }
+
+.symptoms {
+  background-color: green;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.symptoms:hover {
+  background-color: #011404;
+  transform: scale(1.03);
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -55,6 +74,14 @@ hr.botm-line {
     position: relative;
     border: 0;
     margin: 20px 0 20px 0;
+}
+.symptom{
+    background: url('../img/symptom.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /***************************************
